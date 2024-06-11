@@ -299,4 +299,31 @@ ul button {
   .job-item p {
     font-size: 18px;
   }
+  .popup__content {
+    max-width: 500px;
+    width: 80%;
+    font-size: 16px;
+  }
+  .popup-form {
+    max-width: 500px;
+    width: 90%;
+    padding: 30px 20px;
+    gap: 10px;
+    background-color: #2b3655;
+    border-radius: 5px;
+  }
+  .sendButton {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .closeForm {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+  }
 }
