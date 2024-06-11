@@ -3,7 +3,7 @@
   /* overflow: hidden; */
   width: 864px;
   height: 433px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .slide {
@@ -55,7 +55,8 @@ button {
   .slider {
     width: 81.509vw;
     height: 40.849vw;
-    margin-top: 1.887vw;
+    margin-top: 3.774vw;
+    overflow: hidden;
   }
   .prev,
   .next {
@@ -80,18 +81,21 @@ button {
   .prev,
   .next {
     width: 20px;
-    height: 105%;
-    border-radius: 0;
+    height: 100%;
     background: rgba(0, 0, 0, 0.3);
   }
   .prev {
     left: 0;
     bottom: -5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
 
   .next {
-    right: -3.2px;
+    right: 0;
     bottom: -5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   button {
     font-size: 12px;
