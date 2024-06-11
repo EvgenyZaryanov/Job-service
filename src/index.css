@@ -1,0 +1,16 @@
+#root {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0;
+  background-color: #242424;
+}
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+}
